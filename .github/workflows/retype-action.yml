@@ -174,29 +174,36 @@ jobs:
         with:
           license: ${{ secrets.RETYPE_SECRET }}
 
-      - name: Push to retype branch
-        uses: retypeapp/action-github-pages@latest
+      - name: Push build to branch
+        uses: ad-m/github-push-action@master
         with:
-          update-branch: true
+          branch: build
+          directory: .retype
 
-      - name: Checkout retype branch
-        uses: actions/checkout@v3
-        with:
-          ref: retype
 
-      - name: Copy rss.xml from the temporary location to retype branch
-        run: |
-          cp /tmp/rss.xml ./rss.xml
-          git config --local user.email "luke.mcgartland@gmail.com"
-          git config --local user.name "GitHub Action"
-          git add rss.xml
-          if git diff --exit-code --staged; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update rss.xml"
-            git push
-          fi
+      # - name: Push to retype branch
+      #   uses: retypeapp/action-github-pages@latest
+      #   with:
+      #     update-branch: true
 
-      - name: Deploy Vercel
-        run: |
-          wget ${{ secrets.VERCEL_DEPLOY_HOOK }}
+      # - name: Checkout retype branch
+      #   uses: actions/checkout@v3
+      #   with:
+      #     ref: retype
+
+      # - name: Copy rss.xml from the temporary location to retype branch
+      #   run: |
+      #     cp /tmp/rss.xml ./rss.xml
+      #     git config --local user.email "luke.mcgartland@gmail.com"
+      #     git config --local user.name "GitHub Action"
+      #     git add rss.xml
+      #     if git diff --exit-code --staged; then
+      #       echo "No changes to commit"
+      #     else
+      #       git commit -m "Update rss.xml"
+      #       git push
+      #     fi
+
+      # - name: Deploy Vercel
+      #   run: |
+      #     wget ${{ secrets.VERCEL_DEPLOY_HOOK }}
