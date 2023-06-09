@@ -171,6 +171,7 @@ jobs:
 
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
+        id: buildretype
         with:
           license: ${{ secrets.RETYPE_SECRET }}
 
@@ -178,7 +179,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           branch: build
-          directory: .retype
+          directory:  ${{ steps.buildretype.outputs.retype-output-path }}
 
 
       # - name: Push to retype branch
