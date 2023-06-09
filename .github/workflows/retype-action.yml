@@ -70,11 +70,11 @@ jobs:
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/generate-faq.js
 
-      - name: Generate Camera Formats Markdown
+      - name: Generate Media Formats Markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-camera-formats.js
+        run: node .github/scripts/generate-media-formats.js
 
       - name: Generate Asset Management Markdown
         env:

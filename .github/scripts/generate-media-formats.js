@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/camera-formats');
-const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-camera-formats.md');
+const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/media-formats');
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-media-formats.md');
 
 try {
     fs.readdir(directoryPath, function (err, files) {
@@ -37,7 +37,7 @@ try {
                 lastInitial = currentInitial;
             }
 
-            fileContent += `{{ include "camera-formats/${fileNameWithoutExtension}" }}\n\n---\n\n`;
+            fileContent += `{{ include "media-formats/${fileNameWithoutExtension}" }}\n\n---\n\n`;
         });
 
         // Remove the last extra line and '---'
