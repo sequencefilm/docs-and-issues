@@ -196,3 +196,7 @@ jobs:
             git commit -m "Update rss.xml"
             git push
           fi
+
+      - name: Deploy Vercel
+        run: |
+          wget ${{ secrets.VERCEL_DEPLOY_HOOK }}
