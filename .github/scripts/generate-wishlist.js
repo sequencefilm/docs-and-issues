@@ -15,7 +15,7 @@ const getIssues = async () => {
     }
   });
 
-  return response.data.filter(issue => issue.labels.some(label => label.name === "Feature Request"));
+  return response.data.filter(issue => issue.labels.some(label => label.name === "Feature Request" || label.name === "Improvement"));
 };
 
 const generateMarkdown = (issues, path, sortFunc) => {
