@@ -102,7 +102,7 @@ jobs:
 
       - name: Commit and push if it's necessary
         run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "luke.mcgartland@me.com"
           git config --local user.name "GitHub Action"
           git diff --quiet && git diff --staged --quiet || (
             git stash --include-untracked
@@ -139,7 +139,7 @@ jobs:
 
       - name: Commit and push if it's necessary
         run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "luke.mcgartland@me.com"
           git config --local user.name "GitHub Action"
           git pull --rebase origin main
           if git diff --exit-code --quiet docs/rss.xml; then
@@ -187,7 +187,7 @@ jobs:
       - name: Copy rss.xml from the temporary location to retype branch
         run: |
           cp /tmp/rss.xml ./rss.xml
-          git config --local user.email "action@github.com"
+          git config --local user.email "luke.mcgartland@me.com"
           git config --local user.name "GitHub Action"
           git add rss.xml
           if git diff --exit-code --staged; then
@@ -196,10 +196,3 @@ jobs:
             git commit -m "Update rss.xml"
             git push
           fi
-
-      - name: Purge CloudFlare cache
-        run: |
-          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache" \
-          -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
-          -H "Content-Type: application/json" \
-          --data '{"purge_everything":true}'
