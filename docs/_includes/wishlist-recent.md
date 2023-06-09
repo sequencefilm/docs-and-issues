@@ -1,3 +1,4 @@
+- [[SEQ-1733] Improve playback error handling (June 9, 2023)](https://github.com/sequencefilm/cafe/issues/6){target="_blank"}
 - [[SEQ-1684] [SEQ-1731] Hashtags on comments (June 9, 2023)](https://github.com/sequencefilm/cafe/issues/4){target="_blank"}
 - [[SEQ-1710] Export FCP XML + Asset Bundle (June 9, 2023)](https://github.com/sequencefilm/cafe/issues/3){target="_blank"}
 - [[SEQ-1728] User Setting: Drop Frame Timestamp (June 8, 2023)](https://github.com/sequencefilm/cafe/issues/1){target="_blank"}
