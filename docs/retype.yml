@@ -1,7 +1,7 @@
 input: .
 output: .retype
 
-url: sequence.film
+url: https://cafe-sequencefilm.vercel.app/cafe
 
 cname: false
 
