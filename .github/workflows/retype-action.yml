@@ -169,19 +169,48 @@ jobs:
         run: |
           cp docs/rss.xml /tmp/rss.xml
 
-      - name: Build and publish using Retype
-        uses: retypeapp/action-build@latest
-        id: buildretype
-        with:
-          license: ${{ secrets.RETYPE_SECRET }}
+      # - name: Build and publish using Retype
+      #   uses: retypeapp/action-build@latest
+      #   id: buildretype
+      #   with:
+      #     license: ${{ secrets.RETYPE_SECRET }}
 
-      - name: Log path
-        shell: bash
-        env:
-          MY_ENV_TO_RETYPE_PATH: ${{ steps.build1.outputs.retype-output-path }}
-        run: |
-          echo "Retype output is available at '${MY_ENV_TO_RETYPE_PATH}'."
+      # - name: Log path
+      #   shell: bash
+      #   env:
+      #     MY_ENV_TO_RETYPE_PATH: ${{ steps.build1.outputs.retype-output-path }}
+      #   run: |
+      # RETYPE_OUTPUT_PATH
+      #     echo "Retype output is available at '${MY_ENV_TO_RETYPE_PATH}'."
           
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install retype
+        shell: bash
+        run: |
+          npm install retypeapp --global
+          cd ./docs
+          retype build
+
+      - name: Switch to another branch
+        run: git checkout build
+
+      - name: Push new build
+        shell: bash
+        run: |
+          git config --local user.email "luke.mcgartland@gmail.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if git diff --exit-code --staged; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update build"
+            git push
+          fi
         
       # - name: Push build to branch
       #   uses: ad-m/github-push-action@master
