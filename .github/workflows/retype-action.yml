@@ -175,11 +175,19 @@ jobs:
         with:
           license: ${{ secrets.RETYPE_SECRET }}
 
-      - name: Push build to branch
-        uses: ad-m/github-push-action@master
-        with:
-          branch: build
-          directory:  ${{ steps.buildretype.outputs.retype-output-path }}
+      - name: Log path
+        shell: bash
+        env:
+          MY_ENV_TO_RETYPE_PATH: ${{ steps.build1.outputs.retype-output-path }}
+        run: |
+          echo "Retype output is available at '${MY_ENV_TO_RETYPE_PATH}'."
+          
+        
+      # - name: Push build to branch
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     branch: build
+      #     directory:  ${{ steps.buildretype.outputs.retype-output-path }}
 
 
       # - name: Push to retype branch
