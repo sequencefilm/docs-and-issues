@@ -1,0 +1,1 @@
+- [[SEQ-1728] User Setting: Drop Frame Timestamp (June 8, 2023)](https://github.com/sequencefilm/cafe/issues/1){target="_blank"}
