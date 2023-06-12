@@ -1,0 +1,11 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: Project Name
+  label: &1596713211 Docs
+links:
+- text: Docs
+  link: /docs
+footer:
+  copyright: "&copy; Copyright Sequence Arts & Technologies, Inc. {{ year }}."

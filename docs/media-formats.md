@@ -10,4 +10,4 @@ Is there a media format missing? [Make an edit!](/contribute/){target="_blank"}
 
 ---
 
-{{ include "generated-camera-formats" }}
+{{ include "generated-media-formats" }}
