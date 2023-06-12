@@ -1,19 +1,35 @@
 ## B
-{{ include "media-formats/BRAW.md}}
+
+{{ include "media-formats/BRAW" }}
+
+---
+
 
 ---
 
 ## D
-{{ include "media-formats/DNX.md}}
+
+{{ include "media-formats/DNX" }}
+
+---
+
 
 ---
 
 ## H
-{{ include "media-formats/H.264.md}}
-{{ include "media-formats/H.265.md}}
+
+{{ include "media-formats/H.264" }}
+
+---
+
+{{ include "media-formats/H.265" }}
+
+---
+
 
 ---
 
 ## P
-{{ include "media-formats/ProRes.md}}
+
+{{ include "media-formats/ProRes" }}
 
