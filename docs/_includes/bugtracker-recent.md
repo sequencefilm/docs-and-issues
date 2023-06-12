@@ -1,3 +1,4 @@
+- [Toolbar uses glassy treatment, time ruler does not.  (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/11){target="_blank"}
 - [[SEQ-1739] Incorrect frame offset (spatially) on timeline format update (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/10){target="_blank"}
 - [[SEQ-1738] Broken keyframe stepping (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/9){target="_blank"}
 - [[SEQ-1737] Stepping goes no where when in timeline with cursor (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/8){target="_blank"}
