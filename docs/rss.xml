@@ -142,7 +142,7 @@ Saturday June 17th @ 3:30pm</p>
         </item>
         <item>
             <title><![CDATA[Saturday 3rd June 2023]]></title>
-            <description><![CDATA[<p>It's been so incredibly exciting watching all the professional editors contributing to this site via GitHub (check out these <a href="https://github.com/sequencefilm/cafe/pulls?q=is%3Apr+is%3Aclosed">closed pull requests</a>!).</p>
+            <description><![CDATA[<p>It's been so incredibly exciting watching all the professional editors contributing to this site via GitHub (check out these <a href="https://github.com/sequencefilm/docs-and-issues/pulls?q=is%3Apr+is%3Aclosed">closed pull requests</a>!).</p>
 <p>I proposed creating <a href="https://avid.cafe">avid.cafe</a> and <a href="https://premiere.cafe">premiere.cafe</a>/<a href="https://premierepro.cafe">premierepro.cafe</a> on some big Facebook Communities and my posts were <a href="https://twitter.com/chrisatlatenite/status/1664442143262543872">pretty quickly removed</a>.</p>
 <p>Meanwhile, the Final Cut Pro community has fully embraced my <a href="https://twitter.com/chrisatlatenite/status/1661729178826477569">crazy spur-of-the-moment idea</a>, and gone full steam ahead - love it!</p>
 <p>Thanks team!</p>
@@ -370,8 +370,8 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
             <title><![CDATA[Sunday 28th May 2023]]></title>
             <description><![CDATA[<p>We've recently reported two annoying <strong>Final Cut Pro 10.6.6 bugs</strong> to be across:</p>
 <ul>
-<li><a href="https://github.com/sequencefilm/cafe/issues/94">FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)</a></li>
-<li><a href="https://github.com/sequencefilm/cafe/issues/92">Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)</a></li>
+<li><a href="https://github.com/sequencefilm/docs-and-issues/issues/94">FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)</a></li>
+<li><a href="https://github.com/sequencefilm/docs-and-issues/issues/92">Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)</a></li>
 </ul>
 <p>We've reported them to Apple, and will keep track of them in our <a href="https://fcp.cafe/bugtracker/">Bug Tracker</a>.</p>
 ]]></description>

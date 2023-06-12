@@ -4,11 +4,11 @@ Sequence docs is entirely open source and hosted on [GitHub](https://github.com)
 
 [GitHub](https://github.com){target="_blank"} is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-You can make changes to the site by [submitting pull requests on GitHub](https://github.com/sequencefilm/cafe){target="_blank"}.
+You can make changes to the site by [submitting pull requests on GitHub](https://github.com/sequencefilm/docs-and-issues){target="_blank"}.
 
 We welcome and encourage users submitting their own **case studies**, **articles**, **products** and **news items**.
 
-You can see all the current contributors [here](https://github.com/sequencefilm/cafe/graphs/contributors){target="_blank"}. Everything is tracked and archived on [GitHub](https://github.com/sequencefilm/cafe){target="_blank"}.
+You can see all the current contributors [here](https://github.com/sequencefilm/docs-and-issues/graphs/contributors){target="_blank"}. Everything is tracked and archived on [GitHub](https://github.com/sequencefilm/docs-and-issues){target="_blank"}.
 
 The entire site is written in [Markdown](https://www.markdownguide.org), so it's very easy to modify and update without necessarily knowing any HTML or code.
 
@@ -64,12 +64,12 @@ To create the fastest website possible, Sequence Docs is what's called a "static
 
 However, to make sure the website is super easy to update and improve, we use [GitHub Actions](https://github.com/features/actions){target="_blank"} to "do stuff" to our markdown files whenever we submit a pull request.
 
-For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/sequencefilm/cafe/blob/main/.github/workflows/retype-action.yml){target="_blank"} does the following:
+For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/sequencefilm/docs-and-issues/blob/main/.github/workflows/retype-action.yml){target="_blank"} does the following:
 
 - Looks at all the latest news items and generates an [RSS feed](/rss.xml){target="_blank"}
-- Looks at all the individual **Tools** in [this folder](https://github.com/sequencefilm/cafe/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools page](/tools/){target="_blank"}
-- Looks at all the indiviual **Motion Templates** in [this folder](https://github.com/sequencefilm/cafe/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates page](/motiontemplates/){target="_blank"}
-- Looks at all the indiviual **Workflow Extensions** in [this folder](https://github.com/sequencefilm/cafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions page](/ecosystem/workflowextensions/){target="_blank"}
+- Looks at all the individual **Tools** in [this folder](https://github.com/sequencefilm/docs-and-issues/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools page](/tools/){target="_blank"}
+- Looks at all the indiviual **Motion Templates** in [this folder](https://github.com/sequencefilm/docs-and-issues/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates page](/motiontemplates/){target="_blank"}
+- Looks at all the indiviual **Workflow Extensions** in [this folder](https://github.com/sequencefilm/docs-and-issues/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions page](/ecosystem/workflowextensions/){target="_blank"}
 
 This means, if you want to add a Tool, Motion Template, or Workflow Extension, you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
 
@@ -113,7 +113,7 @@ This will send your changes to the Sequence Docs team to review and approve.
 
 If changes are required, they'll add comments within the pull request.
 
-If you have questions, you can ask them on the [Discussions board](https://github.com/sequencefilm/cafe/discussions){target="_blank"}.
+If you have questions, you can ask them on the [Discussions board](https://github.com/sequencefilm/docs-and-issues/discussions){target="_blank"}.
 
 You can also email us here: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=FCPCafe)
 
@@ -169,7 +169,7 @@ You can use [this website](https://youtube-thumbnail-grabber.com){target="_blank
 
 All images should be stored within the `/docs/static/` folder on GitHub.
 
-You can find it [here](https://github.com/sequencefilm/cafe/tree/main/docs/static){target="_blank"}.
+You can find it [here](https://github.com/sequencefilm/docs-and-issues/tree/main/docs/static){target="_blank"}.
 
 ---
 

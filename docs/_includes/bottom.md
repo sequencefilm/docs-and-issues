@@ -1,7 +1,7 @@
 ---
 
 <script src="https://giscus.app/client.js"
-        data-repo="sequencefilm/cafe"
+        data-repo="sequencefilm/docs-and-issues"
         data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
         data-category="Website Discussions"
         data-category-id="DIC_kwDOBamd9s4CW0qy"

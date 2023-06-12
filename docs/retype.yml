@@ -18,7 +18,7 @@ links:
     icon: bug
 
   - text: Discussions
-    link: https://github.com/sequencefilm/cafe/discussions
+    link: https://github.com/sequencefilm/docs-and-issues/discussions
     icon: comment-discussion
     target: blank
 
@@ -42,7 +42,7 @@ footer:
 poweredByRetype: false
 
 edit:
-  repo: "https://github.com/sequencefilm/cafe"
+  repo: "https://github.com/sequencefilm/docs-and-issues"
   base: /docs
   label: Edit this page on GitHub
 

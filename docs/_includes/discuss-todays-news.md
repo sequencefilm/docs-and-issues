@@ -1,1 +1,1 @@
-[!button text="Discuss this news item" target="blank" variant="info"](https://github.com/sequencefilm/cafe/discussions)
+[!button text="Discuss this news item" target="blank" variant="info"](https://github.com/sequencefilm/docs-and-issues/discussions)
