@@ -9,7 +9,7 @@ Reeder 5
 
 You can subscribe to Sequence Doc's RSS feed to get notifications every time we update the "Latest News" feed.
 
-This page has some basic information about RSS feeds, and some links to useful RSS software for macOS.
+{{ include "rss-buttons" }}
 
 ---
 
