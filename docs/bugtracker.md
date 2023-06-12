@@ -1,6 +1,6 @@
 # Bug Tracker
 
-This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
+This page is dedicated to keeping track of the latest Sequence bugs and issues.
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/sequencefilm/docs-and-issues/issues){target="_blank"}.
 
@@ -22,7 +22,7 @@ The above list is pulled from our [GitHub issues site](https://github.com/sequen
 
 ### Recently Added
 
-Here's a list of the **30 most recently added** Final Cut Pro bug reports:
+Here's a list of the **30 most recently added** Sequence bug reports:
 
 {{ include "bugtracker-recent" }}
 
