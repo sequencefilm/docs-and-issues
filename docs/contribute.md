@@ -25,10 +25,8 @@ If you're interested in collaborating, and helping the Sequence Docs grow, here'
 - Make sure all your Sequence feature requests are added to our [Wish List](/wishlist/).
 - Make sure all your Sequence bug reports are added to our [Bug Tracker](/bugtracker/).
 - If you've worked on a professional product (feature film, short film, television commercial, television series, etc), consider writing a case study.
-- Add information to our [FAQ](/faq/). There's a list of things on our TODO list as comments in the [Markdown file](https://raw.githubusercontent.com/CommandPost/FCPCafe/main/docs/faq.md){target="_blank"}.
-- Add any missing [Motion Templates](/ecosystem/motiontemplates/), [Tools](/ecosystem/tools/) and [Plugins](/ecosystem/plugins/).
-- Add personalised reviews to any [Motion Templates](/ecosystem/motiontemplates/), [Tools](/ecosystem/tools/) and [Plugins](/ecosystem/plugins/) you use regularly.
-- Expand the [Motion Templates](/ecosystem/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](/ecosystem/motiontemplates/#motionvfx), we should also list their best/most useful products.
+- Soon, put together pages with best practices for different types of workflows and use cases Sequence can be used for.
+- Add additional tips, tricks, and supporting tools to help you make the most of Sequence.
 
 ---
 
