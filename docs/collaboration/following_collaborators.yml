@@ -1,2 +1,3 @@
-icon: "../static/icons/Following_Collaborators.jpg"
+icon: eye
 label: Following Collaborators
+order: 50
