@@ -1,0 +1,245 @@
+name: Update FCP Cafe Website & Publish to GitHub Pages
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    tags:
+      - "*"
+  pull_request:
+    types: [closed]
+  issues:
+    types: [opened, closed, labeled, unlabeled]
+  release:
+    types: [created]
+
+jobs:
+  generate_markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Generate Bug Tracker Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-bug-tracker.js
+
+      - name: Generate Wish List Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-wishlist.js
+
+      # - name: Generate Workflow Extensions Markdown
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REPO_NAME: ${{ github.repository }}
+      #   run: node .github/scripts/generate-workflow-extensions.js
+
+      # - name: Generate Tools Markdown
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REPO_NAME: ${{ github.repository }}
+      #   run: node .github/scripts/generate-tools.js
+
+      - name: Generate Plugins Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-plugins.js
+
+      # - name: Generate Motion Templates Markdown
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REPO_NAME: ${{ github.repository }}
+      #   run: node .github/scripts/generate-motion-templates.js
+
+      - name: Generate FAQ Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-faq.js
+
+      - name: Generate Media Formats Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-media-formats.js
+
+      - name: Generate Asset Management Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-asset-management.js
+
+      - name: Generate Developer Tools & Frameworks Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-developer-tools-and-frameworks.js
+
+      # - name: Generate FxPlug Markdown
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REPO_NAME: ${{ github.repository }}
+      #   run: node .github/scripts/generate-fxplug.js
+
+      - name: Generate Latest News Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-latest-news.js
+
+      - name: Commit and push if it's necessary
+        run: |
+          git config --local user.email "luke.mcgartland@gmail.com"
+          git config --local user.name "GitHub Action"
+          git diff --quiet && git diff --staged --quiet || (
+            git stash --include-untracked
+            git pull --rebase origin main
+            git stash pop
+            git add docs/_includes/*
+            git commit -m "Update Generated Markdown Files"
+            git push
+          )
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: docs/
+
+  generate_rss:
+    runs-on: ubuntu-latest
+    needs: generate_markdown
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install rss markdown-it feedparser deep-equal glob
+
+      - name: Generate RSS Feed
+        run: node .github/scripts/generate-rss.js
+
+      - name: Commit and push if it's necessary
+        run: |
+          git config --local user.email "luke.mcgartland@gmail.com"
+          git config --local user.name "GitHub Action"
+          git pull --rebase origin main
+          if git diff --exit-code --quiet docs/rss.xml; then
+            echo "No changes to commit"
+          else
+            git add docs/rss.xml
+            git commit -m "Update rss.xml"
+            git push
+          fi
+
+  # publish:
+  #   name: Publish to retype branch
+  #   needs: [generate_markdown, generate_rss]
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v3
+
+  #     - name: Download artifacts
+  #       uses: actions/download-artifact@v2
+  #       with:
+  #         name: docs
+  #         path: docs/
+
+  #     - name: Copy rss.xml to a temporary location
+  #       run: |
+  #         cp docs/rss.xml /tmp/rss.xml
+
+  #     # - name: Build and publish using Retype
+  #     #   uses: retypeapp/action-build@latest
+  #     #   id: buildretype
+  #     #   with:
+  #     #     license: ${{ secrets.RETYPE_SECRET }}
+
+  #     # - name: Log path
+  #     #   shell: bash
+  #     #   env:
+  #     #     MY_ENV_TO_RETYPE_PATH: ${{ steps.build1.outputs.retype-output-path }}
+  #     #   run: |
+  #     # RETYPE_OUTPUT_PATH
+  #     #     echo "Retype output is available at '${MY_ENV_TO_RETYPE_PATH}'."
+
+  #     - name: Set up Node.js
+  #       uses: actions/setup-node@v2
+  #       with:
+  #         node-version: 16
+
+  #     - name: Install retype
+  #       shell: bash
+  #       run: |
+  #         npm install retypeapp --global
+  #         cd ./docs
+  #         retype build
+
+  #     - name: Switch to another branch
+  #       run: git checkout build
+
+  #     - name: Push new build
+  #       shell: bash
+  #       run: |
+  #         git config --local user.email "luke.mcgartland@gmail.com"
+  #         git config --local user.name "GitHub Action"
+  #         git add .
+  #         if git diff --exit-code --staged; then
+  #           echo "No changes to commit"
+  #         else
+  #           git commit -m "Update build"
+  #           git push
+  #         fi
+
+  # - name: Push build to branch
+  #   uses: ad-m/github-push-action@master
+  #   with:
+  #     branch: build
+  #     directory:  ${{ steps.buildretype.outputs.retype-output-path }}
+
+  # - name: Push to retype branch
+  #   uses: retypeapp/action-github-pages@latest
+  #   with:
+  #     update-branch: true
+
+  # - name: Checkout retype branch
+  #   uses: actions/checkout@v3
+  #   with:
+  #     ref: retype
+
+  # - name: Copy rss.xml from the temporary location to retype branch
+  #   run: |
+  #     cp /tmp/rss.xml ./rss.xml
+  #     git config --local user.email "luke.mcgartland@gmail.com"
+  #     git config --local user.name "GitHub Action"
+  #     git add rss.xml
+  #     if git diff --exit-code --staged; then
+  #       echo "No changes to commit"
+  #     else
+  #       git commit -m "Update rss.xml"
+  #       git push
+  #     fi
+
+  # - name: Deploy Vercel
+  #   run: |
+  #     wget ${{ secrets.VERCEL_DEPLOY_HOOK }}
