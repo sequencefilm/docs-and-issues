@@ -2,7 +2,7 @@
 - [[SEQ-1739] Incorrect frame offset (spatially) on timeline format update (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/10){target="_blank"}
 - [[SEQ-1738] Broken keyframe stepping (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/9){target="_blank"}
 - [[SEQ-1737] Stepping goes no where when in timeline with cursor (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/8){target="_blank"}
-- [[SEQ-1736] S24LE audio breaks playback (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/7){target="_blank"}
+- [[SEQ-1736] S24LE audio with 5 channels breaks playback (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/7){target="_blank"}
 - [[SEQ-1733] Improve playback error handling (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/6){target="_blank"}
 - [[SEQ-1732] Bug fix: Undo removes clips (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/5){target="_blank"}
 - [[SEQ-1684] [SEQ-1731] Hashtags on comments (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/4){target="_blank"}
