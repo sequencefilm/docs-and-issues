@@ -1,2 +1,3 @@
-icon: "../static/icons/Managing_Collaborators.jpg"
+icon: people
 label: Managing Collaborators
+order: 100
