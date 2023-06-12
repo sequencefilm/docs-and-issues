@@ -14,9 +14,7 @@ function convertDateToRFC822(dateString) {
 }
 
 function generateUrl(title) {
-  return (
-    "https://sequence.film/cafe/#" + title.toLowerCase().replace(/ /g, "-")
-  );
+  return "https://sequence.filmdocs/#" + title.toLowerCase().replace(/ /g, "-");
 }
 
 function entriesAreEqual(entry1, entry2) {
@@ -54,8 +52,8 @@ if (fs.existsSync("docs/rss.xml")) {
 const feed = new RSS({
   title: "Sequence Docs",
   description: "Latest News from Sequence Docs",
-  feed_url: "https://sequence.film/cafe/rss.xml",
-  site_url: "https://sequence.film/cafe/",
+  feed_url: "https://sequence.film/docs/rss.xml",
+  site_url: "https://sequence.film/docs/",
   generator: "Sequence Docs",
   pubDate: pubDate,
 });

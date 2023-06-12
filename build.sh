@@ -9,7 +9,7 @@ retype build
 
 cd ..
 
-mkdir build && mkdir build/cafe
+mkdir build && mkdir build/docs
 
-cp -R docs/.retype/* build/cafe
+cp -R docs/.retype/* build/docs
 cp vercel.json build/vercel.json
