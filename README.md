@@ -1,4 +1,4 @@
-# Sequence Cafe
+# Sequence Docs
 
 This repository contains the source code for the [sequence.film/docs](https://sequence.film/docs) website.
 
