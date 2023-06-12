@@ -52,11 +52,11 @@ jobs:
       #     REPO_NAME: ${{ github.repository }}
       #   run: node .github/scripts/generate-tools.js
 
-      - name: Generate Plugins Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-plugins.js
+      # - name: Generate Plugins Markdown
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REPO_NAME: ${{ github.repository }}
+      #   run: node .github/scripts/generate-plugins.js
 
       # - name: Generate Motion Templates Markdown
       #   env:
@@ -76,17 +76,17 @@ jobs:
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/generate-media-formats.js
 
-      - name: Generate Asset Management Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-asset-management.js
+      # - name: Generate Asset Management Markdown
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REPO_NAME: ${{ github.repository }}
+      #   run: node .github/scripts/generate-asset-management.js
 
-      - name: Generate Developer Tools & Frameworks Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-developer-tools-and-frameworks.js
+      # - name: Generate Developer Tools & Frameworks Markdown
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REPO_NAME: ${{ github.repository }}
+      #   run: node .github/scripts/generate-developer-tools-and-frameworks.js
 
       # - name: Generate FxPlug Markdown
       #   env:
