@@ -1,8 +1,8 @@
-# Sequence Cafe
+# Sequence Docs
 
 This repository contains the source code for the [sequence.film/docs](https://sequence.film/docs) website.
 
-You can also find a list of Sequence bug reports and feature requests in the [Issues](https://github.com/sequencefilm/cafe/issues) section.
+You can also find a list of Sequence bug reports and feature requests in the [Issues](https://github.com/sequencefilm/docs-and-issues/issues) section.
 
 Discussions about the website can also be found [here](https://github.com/sequencefilm/cafe/discussions).
 
