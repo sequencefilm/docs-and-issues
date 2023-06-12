@@ -1,3 +1,4 @@
+- [[SEQ-186] Aspera Upload (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/20){target="_blank"}
 - [[SEQ-1743] HEIC Support (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/19){target="_blank"}
 - [[SEQ-1588] Artifacts appear in preview stream for h.265 (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/18){target="_blank"}
 - [[SEQ-872] Text message notifications on export (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/17){target="_blank"}
