@@ -1,3 +1,4 @@
+![](/static/brand/thumbnail.jpg)
 
 We are thrilled to have you using **Sequence** - an innovative multimedia collaboration platform. If you're brand new to **Sequence** - this is the place for you! We'll walk you through the basics of getting started with **Sequence** and how to get involved with the community.
 
@@ -13,7 +14,7 @@ Our main focus is to provide you with a powerful multimedia supercomputer in the
 
 ||| Sign In
 
-To get started, visit [https://sequence.film/projects](https://sequence.film/projects) and sign in using your Google Account, or request a passwordless login code to be sent to your email.
+To get started, visit [https://sequence.film/projects](https://sequence.film/projects) and sign in using your Google Account, or request a passwordless login code to be sent to your email.s
 
 ![Sign In](/static/onboarding/CleanShot_2022-12-27_at_16.54.162x.png)
 
@@ -64,3 +65,6 @@ For any issues, suggestions, inquiries, or feedback you may have, please do not 
 ---
 
 {{ include "contribute-learn-more" }}
+
+
+[def]: docs/static/brand/thumbnail.jpg
