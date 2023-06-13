@@ -31,13 +31,12 @@ After logging in, you will be directed to the Project Dashboard where you can ea
 ## Key Features
 
 Once you’re in a project, you can:
-- [Upload](Uploading%20Files%201da4c122d6064247a8b492f5877dcf77.md), [organize, and preview](Organizing%20Files%20b0109e89457f4f48978ec533c2b93538.md) media files
-- [Create timelines](Creating%20&%20Navigating%20Timelines%2098d1857c04044dee83b8b6edad47bf3e.md)
-- [Arrange clips in timelines](Timeline%20Overview%20&%20Tools%202f35c8c8284140f492b357075003e3ba.md)
-- [Trim](Timeline%20Overview%20&%20Tools%202f35c8c8284140f492b357075003e3ba.md) & [cut](Timeline%20Overview%20&%20Tools%202f35c8c8284140f492b357075003e3ba.md) clips
-- [Change the size of clips](https://www.notion.so/Using-the-Inspector-Panel-d516b7bf7a994327b0a7ed23900d52f5?pvs=21) in the timeline
-- [Invite and manage collaborators](Managing%20Collaborators%2076eb2c237d924e77924dc7e14513826d.md)
-- [Download](Downloading%20Library%20Assets%2081f5a54c13e0401da125ef8e769f3ca6.md) media items from the library
+- [Upload Media](/files_and_organization/uploading_files.md), [organize](/files_and_organization/organizing_files.md), and [preview](/files_and_organization/preview_and_playback.md) media files
+- [Create timelines](/files_and_organization/creating_and_navigating_timelines.md)
+- [Edi media in the timeline](/editing/timeline_overview_and_tools.md)
+- [Invite and manage collaborators](/collaboration/managing_collaborators.md)
+- [Export your timelines](/exporting_and_sharing/exporting_timelines.md) and [download your work from sequence](/exporting_and_sharing/downloading_library_assets.md)
+- And soon, [so much more](/wishlist.md)!
 
 
 ## Vision
