@@ -1,3 +1,5 @@
+- [[SEQ-1732] Bug fix: Undo removes clips (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/5){target="_blank"}
+- [[SEQ-1746] iPhone vertical clip thumbnails generated with wrong aspect ratio (June 13, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/31){target="_blank"}
 - [[SEQ-186] Aspera Upload (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/20){target="_blank"}
 - [[SEQ-1743] HEIC Support (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/19){target="_blank"}
 - [[SEQ-1588] Artifacts appear in preview stream for h.265 (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/18){target="_blank"}
@@ -13,7 +15,6 @@
 - [[SEQ-1737] Stepping goes no where when in timeline with cursor (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/8){target="_blank"}
 - [[SEQ-1736] S24LE audio with 5 channels breaks playback (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/7){target="_blank"}
 - [[SEQ-1733] Improve playback error handling (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/6){target="_blank"}
-- [[SEQ-1732] Bug fix: Undo removes clips (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/5){target="_blank"}
 - [[SEQ-1684] [SEQ-1731] Hashtags on comments (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/4){target="_blank"}
 - [[SEQ-1710] Export FCP XML + Asset Bundle (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/3){target="_blank"}
 - [[SEQ-1730] Arrow keys sometimes break playback (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/2){target="_blank"}
