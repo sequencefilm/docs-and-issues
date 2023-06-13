@@ -49,7 +49,7 @@ edit:
   base: /docs
   label: Edit this page on GitHub
 
-favicon: docs/static/brand/favicon.ico
+favicon: /static/brand/favicon.ico
 
 data:
   star: '<span class="fa fa-star checked"></span>'
