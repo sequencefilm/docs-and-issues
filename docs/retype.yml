@@ -6,7 +6,10 @@ url: https://cafe-sequencefilm.vercel.app/docs
 cname: false
 
 branding:
-  title: Sequence Docs
+  title: Sequence
+  label: Docs
+  logo: /static/brand/colorful-reel-icon.png
+  
 
 links:
   - text: Wish List
@@ -46,7 +49,7 @@ edit:
   base: /docs
   label: Edit this page on GitHub
 
-favicon: static/favicon.ico
+favicon: docs/static/brand/favicon.ico
 
 data:
   star: '<span class="fa fa-star checked"></span>'
