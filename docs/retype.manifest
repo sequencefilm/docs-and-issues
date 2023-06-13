@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-06-10T22:16:29Z",
+  "created": "2023-06-13T00:26:41Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -12,55 +12,110 @@
       "path": "bugtracker/index.html"
     },
     {
+      "path": "collaboration/following_collaborators/index.html"
+    },
+    {
+      "path": "collaboration/managing_collaborators/index.html"
+    },
+    {
       "path": "contribute/index.html"
     },
     {
-      "path": "controlsurfaces/index.html"
+      "path": "controlsurfaces/index.html",
+      "old": true
     },
     {
-      "path": "credits/index.html"
+      "path": "credits/index.html",
+      "old": true
     },
     {
-      "path": "developers/applicationbundle/index.html"
+      "path": "developers/applicationbundle/index.html",
+      "old": true
     },
     {
-      "path": "developers/fcpxml/index.html"
+      "path": "developers/fcpxml/index.html",
+      "old": true
     },
     {
-      "path": "developers/fxplug/index.html"
+      "path": "developers/fxplug/index.html",
+      "old": true
     },
     {
-      "path": "developers/ixml/index.html"
+      "path": "developers/ixml/index.html",
+      "old": true
     },
     {
-      "path": "developers/librarybundle/index.html"
+      "path": "developers/librarybundle/index.html",
+      "old": true
     },
     {
-      "path": "developers/patents/index.html"
+      "path": "developers/patents/index.html",
+      "old": true
     },
     {
-      "path": "developers/toolsandframeworks/index.html"
+      "path": "developers/toolsandframeworks/index.html",
+      "old": true
     },
     {
-      "path": "developers/workflowextensions/index.html"
+      "path": "developers/workflowextensions/index.html",
+      "old": true
+    },
+    {
+      "path": "editing/animating_with_keyframes/index.html"
+    },
+    {
+      "path": "editing/audio_editing/index.html"
+    },
+    {
+      "path": "editing/timeline_overview_and_tools/index.html"
+    },
+    {
+      "path": "editing/using_the_inspector_panel/index.html"
+    },
+    {
+      "path": "exporting_and_sharing/downloading_library_assets/index.html"
+    },
+    {
+      "path": "exporting_and_sharing/exporting_timelines/index.html"
     },
     {
       "path": "faq/index.html"
     },
     {
-      "path": "history/index.html"
+      "path": "files_and_organization/creating_and_navigating_timelines/index.html"
+    },
+    {
+      "path": "files_and_organization/organizing_files/index.html"
+    },
+    {
+      "path": "files_and_organization/preview_and_playback/index.html"
+    },
+    {
+      "path": "files_and_organization/project_dashboard/index.html"
+    },
+    {
+      "path": "files_and_organization/uploading_files/index.html"
+    },
+    {
+      "path": "history/index.html",
+      "old": true
     },
     {
       "path": "index.html"
     },
     {
-      "path": "latenite-technology/index.html"
+      "path": "latenite-technology/index.html",
+      "old": true
+    },
+    {
+      "path": "latest-news/index.html"
     },
     {
       "path": "media-formats/index.html"
     },
     {
-      "path": "newbies/index.html"
+      "path": "newbies/index.html",
+      "old": true
     },
     {
       "path": "releasenotes/index.html"
@@ -114,355 +169,618 @@
       "path": "sitemap.xml.gz"
     },
     {
-      "path": "socialmedia/index.html"
+      "path": "socialmedia/index.html",
+      "old": true
     },
     {
-      "path": "static/add.jpg"
+      "path": "static/.ds_store"
     },
     {
-      "path": "static/assimilate-play-pro-studio.png"
+      "path": "static/add.jpg",
+      "old": true
     },
     {
-      "path": "static/audio-roles.png"
+      "path": "static/animating_with_keyframes/animation_-_navigating_keyframes.gif"
     },
     {
-      "path": "static/blood-and-gold.jpg"
+      "path": "static/animating_with_keyframes/animation_-_removing_keyframes.gif"
     },
     {
-      "path": "static/caption-burner.jpg"
+      "path": "static/animating_with_keyframes/animation_-_setting_keyframes.gif"
     },
     {
-      "path": "static/caption-converter.jpg"
+      "path": "static/animating_with_keyframes/cleanshot_2023-04-19_at_10.16.29.gif"
     },
     {
-      "path": "static/captions-window.jpeg"
+      "path": "static/assimilate-play-pro-studio.png",
+      "old": true
     },
     {
-      "path": "static/christopher-hills-ipad.jpg"
+      "path": "static/audio_editing/detach_audio.gif"
     },
     {
-      "path": "static/christopher-hills.jpg"
+      "path": "static/audio-roles.png",
+      "old": true
     },
     {
-      "path": "static/cinematographer-guide.jpg"
+      "path": "static/blood-and-gold.jpg",
+      "old": true
     },
     {
-      "path": "static/coremelt.png"
+      "path": "static/brand/20220222_final.jpg"
     },
     {
-      "path": "static/deleila-piasko-key_visual-2.jpg"
+      "path": "static/brand/android-chrome-192x192.png"
     },
     {
-      "path": "static/drivex.png"
+      "path": "static/brand/android-chrome-512x512.png"
     },
     {
-      "path": "static/editor.png"
+      "path": "static/brand/apple-touch-icon.png"
     },
     {
-      "path": "static/editthisfile.png"
+      "path": "static/brand/colorful-reel-icon.png"
     },
     {
-      "path": "static/editthispage.png"
+      "path": "static/brand/favicon.ico"
     },
     {
-      "path": "static/favicon.ico"
+      "path": "static/brand/favicon.svg"
     },
     {
-      "path": "static/fclm.png"
+      "path": "static/brand/thumbnail.jpg"
     },
     {
-      "path": "static/fcpcafe.png"
+      "path": "static/caption-burner.jpg",
+      "old": true
     },
     {
-      "path": "static/fcpx-on-vision-pro.jpeg"
+      "path": "static/caption-converter.jpg",
+      "old": true
     },
     {
-      "path": "static/final-cut-pro-efficient-editing-10.6-cover-image.jpeg"
+      "path": "static/captions-window.jpeg",
+      "old": true
     },
     {
-      "path": "static/hedge.jpeg"
+      "path": "static/christopher-hills-ipad.jpg",
+      "old": true
     },
     {
-      "path": "static/kelsey-promo.jpeg"
+      "path": "static/christopher-hills.jpg",
+      "old": true
     },
     {
-      "path": "static/keyclips.jpg"
+      "path": "static/cinematographer-guide.jpg",
+      "old": true
     },
     {
-      "path": "static/lockandloadx.png"
+      "path": "static/coremelt.png",
+      "old": true
     },
     {
-      "path": "static/lutx.png"
+      "path": "static/creating_and_navigating_timelines/creating_and_navigating_timlelines.gif"
     },
     {
-      "path": "static/markersextractorcli.gif"
+      "path": "static/creating_and_navigating_timelines/timeline_settings.jpg"
     },
     {
-      "path": "static/media-sync-tool.jpg"
+      "path": "static/deleila-piasko-key_visual-2.jpg",
+      "old": true
     },
     {
-      "path": "static/model.png"
+      "path": "static/downloading_library_assets/downloading_clips.gif"
     },
     {
-      "path": "static/modelx.png"
+      "path": "static/drivex.png",
+      "old": true
     },
     {
-      "path": "static/motion-example.jpg"
+      "path": "static/editor.png",
+      "old": true
     },
     {
-      "path": "static/motionvfx-academy.jpg"
+      "path": "static/editthisfile.png",
+      "old": true
     },
     {
-      "path": "static/neofinder-8-4.jpeg"
+      "path": "static/editthispage.png",
+      "old": true
     },
     {
-      "path": "static/off-the-tracks.jpg"
+      "path": "static/exporting_timelines/exported_timeline_finished.gif"
     },
     {
-      "path": "static/paintx.png"
+      "path": "static/exporting_timelines/exporting_timelines.gif"
     },
     {
-      "path": "static/patent.png"
+      "path": "static/favicon.ico",
+      "old": true
     },
     {
-      "path": "static/postsync-header.jpeg"
+      "path": "static/fclm.png",
+      "old": true
     },
     {
-      "path": "static/postsync.png"
+      "path": "static/fcpcafe.png",
+      "old": true
     },
     {
-      "path": "static/proposechanges.png"
+      "path": "static/fcpx-on-vision-pro.jpeg",
+      "old": true
     },
     {
-      "path": "static/pullrequest.png"
+      "path": "static/file_format_support/sequence_transcode.json.zip"
     },
     {
-      "path": "static/randy-1.jpg"
+      "path": "static/final-cut-pro-efficient-editing-10.6-cover-image.jpeg",
+      "old": true
     },
     {
-      "path": "static/randy-2.jpg"
+      "path": "static/following_collaborators/following_collaborators.gif"
     },
     {
-      "path": "static/resolve-on-vision-pro.png"
+      "path": "static/hedge.jpeg",
+      "old": true
     },
     {
-      "path": "static/ripple-learn.jpg"
+      "path": "static/kelsey-promo.jpeg",
+      "old": true
     },
     {
-      "path": "static/roles.png"
+      "path": "static/keyclips.jpg",
+      "old": true
     },
     {
-      "path": "static/sady-paulson.jpg"
+      "path": "static/lockandloadx.png",
+      "old": true
     },
     {
-      "path": "static/schatten-timeline-tuesday.jpeg"
+      "path": "static/lutx.png",
+      "old": true
     },
     {
-      "path": "static/sex-oclock.jpg"
+      "path": "static/managing_collaborators/export_mar_02_2023_1220_pm.gif"
     },
     {
-      "path": "static/shot-notes-x.jpg"
+      "path": "static/managing_collaborators/inviting_collaborators.gif"
     },
     {
-      "path": "static/shotdata.gif"
+      "path": "static/markersextractorcli.gif",
+      "old": true
     },
     {
-      "path": "static/shotdata.png"
+      "path": "static/media-sync-tool.jpg",
+      "old": true
     },
     {
-      "path": "static/slicex.png"
+      "path": "static/model.png",
+      "old": true
     },
     {
-      "path": "static/srt2subtitles-cli.gif"
+      "path": "static/modelx.png",
+      "old": true
     },
     {
-      "path": "static/ss-back-ups.png"
+      "path": "static/motion-example.jpg",
+      "old": true
     },
     {
-      "path": "static/ss-editready.png"
+      "path": "static/motionvfx-academy.jpg",
+      "old": true
     },
     {
-      "path": "static/ss-findrcat.png"
+      "path": "static/neofinder-8-4.jpeg",
+      "old": true
     },
     {
-      "path": "static/ss-keyclips.png"
+      "path": "static/off-the-tracks.jpg",
+      "old": true
     },
     {
-      "path": "static/ss-media-sync-tool.png"
+      "path": "static/onboarding/cleanshot_2022-12-27_at_16.54.162x.png"
     },
     {
-      "path": "static/ss-refernece-x.png"
+      "path": "static/onboarding/cleanshot_2022-12-27_at_16.56.022x.png"
     },
     {
-      "path": "static/ss-short-notes-x.png"
+      "path": "static/organizing_files/library_controls.jpg"
     },
     {
-      "path": "static/stylex.png"
+      "path": "static/organizing_files/list_view_and_grid_view.jpg"
     },
     {
-      "path": "static/subvert-01.png"
+      "path": "static/organizing_files/organizing_files_in_folders.gif"
     },
     {
-      "path": "static/subvert-02.png"
+      "path": "static/paintx.png",
+      "old": true
     },
     {
-      "path": "static/subvert-03.png"
+      "path": "static/patent.png",
+      "old": true
     },
     {
-      "path": "static/subvert-04.png"
+      "path": "static/postsync-header.jpeg",
+      "old": true
     },
     {
-      "path": "static/subvert.png"
+      "path": "static/postsync.png",
+      "old": true
     },
     {
-      "path": "static/thomas-grove-carter.jpg"
+      "path": "static/preview_and_playback/cleanshot_2023-02-24_at_13.51.38.gif"
     },
     {
-      "path": "static/thumbnail.png"
+      "path": "static/preview_and_playback/frame_stepping_2.gif"
     },
     {
-      "path": "static/to-my-father.jpg"
+      "path": "static/preview_and_playback/previewing_files.gif"
     },
     {
-      "path": "static/trackx.png"
+      "path": "static/project_dashboard/project_dashboard.jpg"
     },
     {
-      "path": "static/transcriber.jpg"
+      "path": "static/project_dashboard/renaming_a_project.gif"
     },
     {
-      "path": "static/turn-of-the-tide-1.png"
+      "path": "static/project_dashboard/setting_project_image.gif"
     },
     {
-      "path": "static/turn-of-the-tide-10.png"
+      "path": "static/proposechanges.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-11.png"
+      "path": "static/pullrequest.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-12.png"
+      "path": "static/randy-1.jpg",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-13.png"
+      "path": "static/randy-2.jpg",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-14.png"
+      "path": "static/resolve-on-vision-pro.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-15.png"
+      "path": "static/ripple-learn.jpg",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-16.png"
+      "path": "static/roles.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-17.png"
+      "path": "static/sady-paulson.jpg",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-18.png"
+      "path": "static/schatten-timeline-tuesday.jpeg",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-2.png"
+      "path": "static/sex-oclock.jpg",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-3.png"
+      "path": "static/shot-notes-x.jpg",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-4.png"
+      "path": "static/shotdata.gif",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-5.png"
+      "path": "static/shotdata.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-6.png"
+      "path": "static/slicex.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-7.png"
+      "path": "static/srt2subtitles-cli.gif",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-8.png"
+      "path": "static/ss-back-ups.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-9.png"
+      "path": "static/ss-editready.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-poster.jpg"
+      "path": "static/ss-findrcat.png",
+      "old": true
     },
     {
-      "path": "static/turn-of-the-tide-youtube.jpg"
+      "path": "static/ss-keyclips.png",
+      "old": true
     },
     {
-      "path": "static/unsightly-opinions-1.jpg"
+      "path": "static/ss-media-sync-tool.png",
+      "old": true
     },
     {
-      "path": "static/unsightly-opinions-2.jpg"
+      "path": "static/ss-refernece-x.png",
+      "old": true
     },
     {
-      "path": "static/window_import.jpeg"
+      "path": "static/ss-short-notes-x.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-m2ultra.png"
+      "path": "static/stylex.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-macbook-air.png"
+      "path": "static/subvert-01.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-macos.png"
+      "path": "static/subvert-02.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-macpro-compare-2.png"
+      "path": "static/subvert-03.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-macpro-compare-3.png"
+      "path": "static/subvert-04.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-macpro-compare.png"
+      "path": "static/subvert.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-macpro-pricing-aud.png"
+      "path": "static/thomas-grove-carter.jpg",
+      "old": true
     },
     {
-      "path": "static/wwdc23-macpro-pricing.png"
+      "path": "static/thumbnail.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-macpro.png"
+      "path": "static/timeline_overview_and_tools/creating_and_navigating_timelines_-_optimized.gif"
     },
     {
-      "path": "static/wwdc23-vision-pro-1.jpeg"
+      "path": "static/timeline_overview_and_tools/cutting_clips.gif"
     },
     {
-      "path": "static/wwdc23-vision-pro-2.jpeg"
+      "path": "static/timeline_overview_and_tools/moving_clips.gif"
     },
     {
-      "path": "static/wwdc23-vision-pro-3.jpeg"
+      "path": "static/timeline_overview_and_tools/placeholder.gif"
     },
     {
-      "path": "static/wwdc23-vision-pro-4.jpeg"
+      "path": "static/timeline_overview_and_tools/trimming_clips.gif"
     },
     {
-      "path": "static/wwdc23-vision-pro-5.jpeg"
+      "path": "static/to-my-father.jpg",
+      "old": true
     },
     {
-      "path": "static/wwdc23-vision-pro-6.jpeg"
+      "path": "static/trackx.png",
+      "old": true
     },
     {
-      "path": "static/wwdc23-vision-pro-7.jpeg"
+      "path": "static/transcriber.jpg",
+      "old": true
     },
     {
-      "path": "static/wwdc23-vision-pro-8.jpeg"
+      "path": "static/turn-of-the-tide-1.png",
+      "old": true
     },
     {
-      "path": "static/yt-findrcat-01.jpg"
+      "path": "static/turn-of-the-tide-10.png",
+      "old": true
     },
     {
-      "path": "static/yt-findrcat-02.jpg"
+      "path": "static/turn-of-the-tide-11.png",
+      "old": true
     },
     {
-      "path": "static/yt-vuo.jpg"
+      "path": "static/turn-of-the-tide-12.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-13.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-14.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-15.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-16.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-17.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-18.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-2.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-3.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-4.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-5.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-6.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-7.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-8.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-9.png",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-poster.jpg",
+      "old": true
+    },
+    {
+      "path": "static/turn-of-the-tide-youtube.jpg",
+      "old": true
+    },
+    {
+      "path": "static/unsightly-opinions-1.jpg",
+      "old": true
+    },
+    {
+      "path": "static/unsightly-opinions-2.jpg",
+      "old": true
+    },
+    {
+      "path": "static/uploading_files/background_uploading_and_inbox_00002710.png"
+    },
+    {
+      "path": "static/uploading_files/background_uploading_and_inbox_00003713.png"
+    },
+    {
+      "path": "static/uploading_files/background_uploading_and_inbox_00033317.png"
+    },
+    {
+      "path": "static/uploading_files/file_processing.gif"
+    },
+    {
+      "path": "static/uploading_files/uploading_files.gif"
+    },
+    {
+      "path": "static/using_the_inspector_panel/cleanshot_2023-04-13_at_17.47.19.gif"
+    },
+    {
+      "path": "static/using_the_inspector_panel/clip_inspector.gif"
+    },
+    {
+      "path": "static/using_the_inspector_panel/property_-_opacity.gif"
+    },
+    {
+      "path": "static/using_the_inspector_panel/property_-_position.gif"
+    },
+    {
+      "path": "static/using_the_inspector_panel/property_-_scale.gif"
+    },
+    {
+      "path": "static/window_import.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-m2ultra.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-macbook-air.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-macos.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-macpro-compare-2.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-macpro-compare-3.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-macpro-compare.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-macpro-pricing-aud.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-macpro-pricing.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-macpro.png",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-vision-pro-1.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-vision-pro-2.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-vision-pro-3.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-vision-pro-4.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-vision-pro-5.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-vision-pro-6.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-vision-pro-7.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/wwdc23-vision-pro-8.jpeg",
+      "old": true
+    },
+    {
+      "path": "static/yt-findrcat-01.jpg",
+      "old": true
+    },
+    {
+      "path": "static/yt-findrcat-02.jpg",
+      "old": true
+    },
+    {
+      "path": "static/yt-vuo.jpg",
+      "old": true
     },
     {
       "path": "supported-devices/index.html"
     },
     {
-      "path": "training/index.html"
+      "path": "training/index.html",
+      "old": true
     },
     {
       "path": "wishlist/index.html"
