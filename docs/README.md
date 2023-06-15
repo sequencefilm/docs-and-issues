@@ -55,15 +55,13 @@ Thank you for being a part of our journey and we look forward to hearing your fe
 
 ## Feedback
 
-For any issues, suggestions, inquiries, or feedback you may have, please do not hesitate to reach out to us by emailing **[lmcgartland@sequence.film](mailto:lmcgartland@sequence.film)**
+This site is designed to allow users to create, view, and discuss feedback on Sequence. We encourage you to share your thoughts and ideas with us and the community. To learn more, you can check out the [Contribute to Sequence Docs page](/contribute.md). 
 
+However, if you're not on GitHub or need to get in touch directly, send an email to [lmcgartland@sequence.film](mailto:lmcgartland@sequence.film) with your feedback.
 <aside>
-✨ <b>In-app feedback system coming soon</b>
+✨ <b>In-app feedback system coming soon</b> ✨
 </aside>
 
 ---
 
 {{ include "contribute-learn-more" }}
-
-
-[def]: docs/static/brand/thumbnail.jpg
