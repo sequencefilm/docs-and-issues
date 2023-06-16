@@ -6,9 +6,9 @@ Below the timeline picker are the controls for the library which you can use to:
 2. Create a new folder
 3. Add more files
 
-![Library Controls.jpg](Organizing%20Files%20b0109e89457f4f48978ec533c2b93538/Library_Controls.jpg)
+![Library Controls.jpg](/static/organizing_files/Library_Controls.jpg)
 
-![List View and Grid View.jpg](Organizing%20Files%20b0109e89457f4f48978ec533c2b93538/List_View_and_Grid_View.jpg)
+![List View and Grid View.jpg](/static/organizing_files/List_View_and_Grid_View.jpg)
 
 ## Using Folders to Organize Files
 
@@ -22,4 +22,5 @@ To remove a child file or folder from its parent folder, click and drag it on to
 
 Currently, all files and folders are sorted alphabetically. 
 
-![Organizing Files in Folders.gif](Organizing%20Files%20b0109e89457f4f48978ec533c2b93538/Organizing_Files_in_Folders.gif)
+![Organizing Files in Folders.gif](/static/organizing_files/Organizing_Files_in_Folders.gif)
+

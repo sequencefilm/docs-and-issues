@@ -2,7 +2,7 @@
 
 You can download any file from the Library by right-clicking on it and selecting `Download`.
 
-![Downloading Clips.gif](Downloading%20Library%20Assets%2081f5a54c13e0401da125ef8e769f3ca6/Downloading_Clips.gif)
+![Downloading Clips.gif](/static/downloading_library_assets/Downloading_Clips.gif)
 
 ← Previous
 

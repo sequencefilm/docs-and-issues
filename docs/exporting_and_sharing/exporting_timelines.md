@@ -7,7 +7,7 @@ This will kick off an export job using the resolution and frame rate from the ti
 
 In the Exports tab, you can keep an eye on the progress of any export jobs you’re waiting on.
 
-![Starting a Timeline Export](Exporting%20Timelines%20272bc92497444b749b2cbb976f8fa322/Exporting_Timelines.gif)
+![Starting a Timeline Export](/static/exporting_timelines/Exporting_Timelines.gif)
 
 Starting a Timeline Export
 
@@ -17,7 +17,7 @@ When the timeline is done exporting, you can find the completed file in the “E
 
 To download the file to your device, right click on it and select `Download`.
 
-![Viewing and Downloading a Completed Timeline Export](Exporting%20Timelines%20272bc92497444b749b2cbb976f8fa322/Exported_Timeline_Finished.gif)
+![Viewing and Downloading a Completed Timeline Export](/static/exporting_timelines/Exported_Timeline_Finished.gif)
 
 Viewing and Downloading a Completed Timeline Export
 
