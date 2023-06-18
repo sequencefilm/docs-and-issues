@@ -1,8 +1,16 @@
 # Release Notes
 
 ## 2023
-### May 2023
 
+### May 23rd, 2023
+- Improvemnts:
+    - Added drag handles to commenting bubbles to be able ot adjust the timing of the comment when in comment ediing mode.
+    - Bug fixes & cleanup for commenting.
+    - Bug fixes for undo/redo.
+- New features:
+    - Unsupported file type format added to show in the UI when an uploaded cilp cannot be used by Sequence at this time.
+
+### May 1st, 2023
 - Library Media Range, Frame Commenting
 - Timeline Range, Frame Commenting
 - Timeline Clip Range, Frame Commenting
