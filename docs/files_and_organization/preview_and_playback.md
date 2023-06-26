@@ -31,3 +31,16 @@ Hold shift while doing this to move 10 frames at a time.
 By default playback will end at the end of a library clip or at the end of a timeline. You can enable the loop toggle in the playback controls to make playback loop continuously until manually pausing it. 
 
 ![Loop Playback Controls](/static/preview_and_playback/CleanShot_2023-02-24_at_13.51.38.gif)
+
+## Use Ranges to Select Just What You Need from a Clip in the Preview
+
+![Ranges in Library Previews](/static/ranges/ranges_in_preview.gif)
+
+Adding entire clips to the timeline and then cutting or trimming down to what you need can be time consuming. Ranges enable a classic editing technique known as "3-point editing" that helps save you time by letting you select just the portion of a clip you need and add it to the timeline.
+
+- When you select a library item to preview, the entire range is selected by default.
+- Use the trim handles to adjust the range to the portion of the clip you want to use.
+- You can also use the keyboard shortcut `[` to set the beginning of the range and `]` to set the end of the range.
+- Once you have the range set, you can drag it into the timeline.
+- To reset a range to the entire clip, press `X` on your keyboard.
+
