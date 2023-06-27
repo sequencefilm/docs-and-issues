@@ -2,8 +2,23 @@
 
 ## 2023
 
+### June 27th, 2023
+- New Features:
+    - [Use **ranges** to pre-trim library clips](/files_and_organization/preview_and_playback.md) you're previewing before adding them to the timeline.
+    - OH YEAH oopsie daisy we totally never made relase notes about **commenting** but there's a lot of cool stuff to unpack there that you should [check out](/collaboration/commenting.md ).
+    - You can delete media from your library now! great for cleaning up you library, or removing clips that are not currently supported thanks to our new "unsupported file type" feature.
+    - In timeline management, you can now [**lock timelines** to prevent accidental changes](/files_and_organization/creating_and_navigating_timelines.md), as well as [**duplicate timelines** to work on a new copy](/files_and_organization/creating_and_navigating_timelines.md) of something you don't want to mess up.
+- Improvements:
+    - General speed and stability improvements in the timeline
+    - Improvements to make project/preview desyncs less frequent
+    - Better responsiveness for the preview stream to pick back up when coming back to the tab after leaving open in the background
+    - Increased cloud CPU specs to make playback snappier
+    - Improved speed that the library database updates when organizing assets and folders in the library
+
+That's all for now, ttyl :) 
+
 ### May 23rd, 2023
-- Improvemnts:
+- Improvements:
     - Added drag handles to commenting bubbles to be able ot adjust the timing of the comment when in comment ediing mode.
     - Bug fixes & cleanup for commenting.
     - Bug fixes for undo/redo.
