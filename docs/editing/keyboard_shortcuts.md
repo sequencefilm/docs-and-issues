@@ -9,6 +9,8 @@ Step Backward 1 Frame | `←`
 Step Forward 10 Frames | `Shift` + `→`
 Step Backward 10 Frames | `Shift` + `←`
 Loop Playback | `⌘` + `R`
+Set Start or End of Preview Range | `[` or `]`
+Reset Preview Range | `X`
 
 ### Timeline
 Action | Shortcut
