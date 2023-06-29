@@ -1,4 +1,5 @@
 - [[SEQ-1732] Bug fix: Undo removes clips (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/5){target="_blank"}
+- [[SEQ-1786] Firefox stream never loads (June 23, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/41){target="_blank"}
 - [[SEQ-1746] iPhone vertical clip thumbnails generated with wrong aspect ratio (June 13, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/31){target="_blank"}
 - [[SEQ-186] Aspera Upload (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/20){target="_blank"}
 - [[SEQ-1743] HEIC Support (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/19){target="_blank"}
