@@ -2,6 +2,14 @@
 
 ## 2023
 
+### July 11th, 2023
+- New Features:
+   - When [snapping is enabled in the timeline](/editing/timeline_overview_and_tools/#toggle-snapping), the skimmer will now snap to clip edges as you hover near them, making it easier to line up edits with the blade tool or trim to a specific frame.
+   - In addition to snapping to edit points, you can also navigate the playhead to next and previous edit points by using the up and down arrow keys when in the timeline.
+- Improvements:
+   - A major refactor of the technology that syncs the preview stream with the project state has been completed, resulting in much more reliable previews without needing to refresh the project. 
+
+
 ### June 27th, 2023
 - New Features:
     - [Use **ranges** to pre-trim library clips](/files_and_organization/preview_and_playback.md) you're previewing before adding them to the timeline.
