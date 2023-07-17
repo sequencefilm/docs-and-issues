@@ -26,6 +26,10 @@ Hold shift while doing this to move 10 frames at a time.
 
 ![Frame Stepping](/static/preview_and_playback/Frame_Stepping_2.gif)
 
+## Navigate Edit Points with Arrow Keys
+
+When in a timeline, you can use the up anddown arrow keys to move to the previous and next edit points in the timeline.
+
 ## Loop Playback
 
 By default playback will end at the end of a library clip or at the end of a timeline. You can enable the loop toggle in the playback controls to make playback loop continuously until manually pausing it. 
