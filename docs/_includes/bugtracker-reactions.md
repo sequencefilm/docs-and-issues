@@ -1,4 +1,5 @@
 - [[SEQ-1732] Bug fix: Undo removes clips (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/5){target="_blank"}
+- [[SEQ-1855] Can't leave frame comments on timeline (only range) (July 24, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/46){target="_blank"}
 - [[SEQ-1853] ProRes 4444 with alpha doesn't play in preview (July 21, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/45){target="_blank"}
 - [[SEQ-1786] Firefox stream never loads (June 23, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/41){target="_blank"}
 - [[SEQ-1746] iPhone vertical clip thumbnails generated with wrong aspect ratio (June 13, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/31){target="_blank"}
