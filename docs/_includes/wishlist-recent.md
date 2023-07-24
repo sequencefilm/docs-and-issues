@@ -1,3 +1,4 @@
+- [[SEQ-1856] Timeline picker improvement: allow for context menu when timeline is locked (July 24, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/47){target="_blank"}
 - [[SEQ-1743] HEIC Support (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/19){target="_blank"}
 - [[SEQ-872] Text message notifications on export (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/17){target="_blank"}
 - [[SEQ-1660] Make text selectable in comments (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/16){target="_blank"}
