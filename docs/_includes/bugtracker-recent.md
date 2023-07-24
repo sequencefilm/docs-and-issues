@@ -1,3 +1,4 @@
+- [[SEQ-1857] Timeline rename gets funky behavior after deleting a timeline (July 24, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/48){target="_blank"}
 - [[SEQ-1856] Timeline picker improvement: allow for context menu when timeline is locked (July 24, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/47){target="_blank"}
 - [[SEQ-1855] Can't leave frame comments on timeline (only range) (July 24, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/46){target="_blank"}
 - [[SEQ-1853] ProRes 4444 with alpha doesn't play in preview (July 21, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/45){target="_blank"}
