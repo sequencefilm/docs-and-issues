@@ -1,5 +1,3 @@
-info about keyboar shortcuts
-
 ### Preview & Playback
 Action | Shortcut
 :--- | ---:
