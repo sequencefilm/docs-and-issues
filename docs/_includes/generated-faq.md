@@ -43,9 +43,17 @@
 
 ---
 
+{{ include "faq/crashes" }}
+
+---
+
 {{ include "faq/where-are-my-assets-stored" }}
 
 ---
 
 {{ include "faq/why-isnt-the-preview-showing-the-right-thing" }}
+
+---
+
+{{ include "faq/inactivity" }}
 
