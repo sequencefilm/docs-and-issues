@@ -6,7 +6,9 @@ Step Forward 1 Frame | `→`
 Step Backward 1 Frame | `←`
 Step Forward 10 Frames | `Shift` + `→`
 Step Backward 10 Frames | `Shift` + `←`
-Loop Playback | `⌘` + `R`
+Jump to Next Edit Point | `↑`
+Jump to Previous Edit Point | `↓`
+Loop Playback | `L`
 Set Start or End of Preview Range | `[` or `]`
 Reset Preview Range | `X`
 

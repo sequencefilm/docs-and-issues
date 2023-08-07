@@ -18,7 +18,9 @@ Click on any timeline from the timeline picker, or anywhere on the background of
 - Press the spacebar or use the play/pause button to start and stop playback.
     - NOTE: The timeline will dim and become non-interactive during playback to prevent changes from interrupting the steam. Pause the stream to load any changes and work in the timeline again.
 
-## Frame Stepping
+## Timeline Playback Controls
+
+To start and stop the timeline, use SPACEBAR or the play/pause button in the preview controls.
 
 To move forward and backward one frame at a time, use the frame stepping buttons in the preview controls or use the right and left arrow keys.
 
@@ -26,9 +28,7 @@ Hold shift while doing this to move 10 frames at a time.
 
 ![Frame Stepping](/static/preview_and_playback/Frame_Stepping_2.gif)
 
-## Navigate Edit Points with Arrow Keys
-
-When in a timeline, you can use the up anddown arrow keys to move to the previous and next edit points in the timeline.
+To **navigate to the previous and next edit points** in the timeline, use the up and down arrow keys.
 
 ## Loop Playback
 
