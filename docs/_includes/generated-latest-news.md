@@ -1,6 +1,14 @@
 # 2023
 ## August
 
+{{ include "news/20230807" }}
+
+---
+
+{{ include "discuss-todays-news" }}
+
+---
+
 {{ include "news/20230802" }}
 
 ---
