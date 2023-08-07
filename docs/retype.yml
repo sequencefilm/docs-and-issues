@@ -59,3 +59,7 @@ favicon: /static/brand/favicon.ico
 data:
   star: '<span class="fa fa-star checked"></span>'
   unstar: '<span class="fa fa-star">'
+
+integrations:
+  plausible:
+    domain: sequence.film
