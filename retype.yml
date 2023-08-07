@@ -12,3 +12,4 @@ footer:
 integrations:
   plausible:
     domain: sequence.film
+    host: plausible.io
