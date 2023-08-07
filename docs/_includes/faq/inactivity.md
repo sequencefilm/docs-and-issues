@@ -8,4 +8,4 @@ Upon returning to a disconnected project, interacting with it will automatically
 
 Your project will not be disconnected due to inactivity if playback is in progress. 
 
-![Inactivity Error](docs/static/faq/disconnected-inactivity.png)
+![Inactivity Error](/static/faq/disconnected-inactivity.png)
