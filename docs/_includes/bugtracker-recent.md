@@ -1,4 +1,3 @@
-- [[SEQ-1977] Support MXF container format (August 16, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/56){target="_blank"}
 - [[SEQ-1855] Can't leave frame comments on timeline (only range) (July 24, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/46){target="_blank"}
 - [[SEQ-1853] ProRes 4444 with alpha doesn't play in preview (July 21, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/45){target="_blank"}
 - [[SEQ-1786] Firefox stream never loads (June 23, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/41){target="_blank"}
