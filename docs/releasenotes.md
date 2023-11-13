@@ -2,6 +2,20 @@
 
 ## 2023
 
+### November 13th, 2023 - Quality-of-Life Improvements
+
+[!embed](https://www.youtube.com/watch?v=_hag76F5MZc)
+
+New Features:
+- *Rename project by clicking on title:* previously, the only way to rename a project was from the project browser. Now, you can double click on the title of any project within the editor to rename it. (Reminder: after you've renamed it, you can also set the project thumbnail by right clicking on any frame in the preview and select "Set Project Image")
+- *Tooltips:* hover over any tool to see a tooltip with the name of the tool and the shortcut used to activate it. We will be adding more descriptive tooltips throughout the app.
+
+Fixes & Improvements:
+- *Improved a/v sync:* new updates to the media pipeline ensure the a/v sync stays locked and does not drift apart as much over time. These updates may result in audio dropouts after initially starting playback, but will resume normally after a couple of seconds. We are continuing to work on improvements in this area.
+- *Improved thumbnail & waveform generation:* improvements to the generation of thumbnails should make sure they are available sooner after processing, and load more quickly in the timeline.
+- *Improved undo/redo support:* increased support for undo/redo operations across the application.
+- *Fixed timeline lock/unlock button in timeline picker:* click on the lock button on the right side of a timeline in the timeline picker to lock and unlock the timeline.
+
 ### October 31st, 2023 - The Spooky Release 🎃
 
 [!embed](https://youtu.be/B2HtOCgtQyQ)
