@@ -14,7 +14,7 @@ The entire site is written in [Markdown](https://www.markdownguide.org), so it's
 
 The website is build on [Retype](https://retype.com){target="_blank"}, which has a lot of power and flexibility, so you can easily add all kinds of [components](https://retype.com/components/){target="_blank"} just using Markdown.
 
-However, if you're not confident using GitHub, you can also email us content here: [lmcgartland@sequence.film](mailto:lmcgartland@sequence.film?subject=SequenceDocs)
+However, if you're not confident using GitHub, you can also email us content here: [team@sequence.film](mailto:team@sequence.film?subject=SequenceDocs)
 
 ---
 
