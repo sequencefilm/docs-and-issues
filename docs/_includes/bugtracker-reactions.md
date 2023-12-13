@@ -1,14 +1,15 @@
 - [[SEQ-1786] Firefox stream never loads (June 23, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/41){target="_blank"}
-- [[SEQ-1746] iPhone vertical clip thumbnails generated with wrong aspect ratio (June 13, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/31){target="_blank"}
 - [[SEQ-186] Aspera Upload (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/20){target="_blank"}
 - [[SEQ-1743] HEIC Support (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/19){target="_blank"}
 - [[SEQ-1588] Artifacts appear in preview stream for h.265 (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/18){target="_blank"}
+- [[SEQ-872] Text message notifications on export (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/17){target="_blank"}
 - [[SEQ-1660] Make text selectable in comments (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/16){target="_blank"}
 - [[SEQ-1742] WebP Support (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/15){target="_blank"}
 - [[SEQ-1658] Make links clickable in comments (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/14){target="_blank"}
 - [[SEQ-1682] Better way to select overlapping comments in timeline (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/13){target="_blank"}
+- [[SEQ-1741] [SEQ-1259] Snap to cursor (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/12){target="_blank"}
+- [[SEQ-1740] Toolbar uses glassy treatment, time ruler does not.  (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/11){target="_blank"}
 - [[SEQ-1739] Incorrect frame offset (spatially) on timeline format update (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/10){target="_blank"}
-- [[SEQ-1736] S24LE audio with 5 channels breaks playback (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/7){target="_blank"}
 - [[SEQ-1733] Improve playback error handling (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/6){target="_blank"}
 - [[SEQ-1684] [SEQ-1731] Hashtags on comments (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/4){target="_blank"}
 - [[SEQ-1710] Export FCP XML + Asset Bundle (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/3){target="_blank"}
