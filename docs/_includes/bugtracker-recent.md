@@ -1,3 +1,4 @@
+- [[SEQ-1786] Firefox stream never loads (June 23, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/41){target="_blank"}
 - [[SEQ-1746] iPhone vertical clip thumbnails generated with wrong aspect ratio (June 13, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/31){target="_blank"}
 - [[SEQ-186] Aspera Upload (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/20){target="_blank"}
 - [[SEQ-1743] HEIC Support (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/19){target="_blank"}
@@ -14,5 +15,4 @@
 - [[SEQ-1733] Improve playback error handling (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/6){target="_blank"}
 - [[SEQ-1684] [SEQ-1731] Hashtags on comments (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/4){target="_blank"}
 - [[SEQ-1710] Export FCP XML + Asset Bundle (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/3){target="_blank"}
-- [[SEQ-1730] Arrow keys sometimes break playback (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/2){target="_blank"}
 - [[SEQ-1728] User Setting: Drop Frame Timestamp (June 8, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/1){target="_blank"}
