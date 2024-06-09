@@ -7,5 +7,4 @@
 - [[SEQ-1741] [SEQ-1259] Snap to cursor (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/12){target="_blank"}
 - [[SEQ-1740] Toolbar uses glassy treatment, time ruler does not.  (June 12, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/11){target="_blank"}
 - [[SEQ-1733] Improve playback error handling (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/6){target="_blank"}
-- [[SEQ-1684] [SEQ-1731] Hashtags on comments (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/4){target="_blank"}
 - [[SEQ-1728] User Setting: Drop Frame Timestamp (June 8, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/1){target="_blank"}

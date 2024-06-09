@@ -13,5 +13,4 @@
 - [[SEQ-1739] Incorrect frame offset (spatially) on timeline format update (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/10){target="_blank"}
 - [[SEQ-1736] S24LE audio with 5 channels breaks playback (June 10, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/7){target="_blank"}
 - [[SEQ-1733] Improve playback error handling (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/6){target="_blank"}
-- [[SEQ-1684] [SEQ-1731] Hashtags on comments (June 9, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/4){target="_blank"}
 - [[SEQ-1728] User Setting: Drop Frame Timestamp (June 8, 2023)](https://github.com/sequencefilm/docs-and-issues/issues/1){target="_blank"}
